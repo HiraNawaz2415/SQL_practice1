@@ -55,5 +55,5 @@
 
 - **ROLLBACK:** Undo changes
 
-- **SAVEPOINT: **Set a point to roll back to
+- **SAVEPOINT:** Set a point to roll back to
 ---
