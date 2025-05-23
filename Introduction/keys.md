@@ -60,10 +60,10 @@ Here, **StudentID** in the **Marks** table is a foreign key that connects to the
 
 - Used when no single column can uniquely identify a row.
 
-**Example:** PRIMARY KEY (StudentID, Subject)
+- **Example:** PRIMARY KEY (StudentID, Subject)
 ---
 
-## **What is a Surrogate Key?*8
+## **What is a Surrogate Key?**
 - A Surrogate Key is an artificial or automatically generated key used to uniquely identify each row in a table.
 
 - It has no real-world meaning—it's just a unique number (usually an ID) created by the database.
