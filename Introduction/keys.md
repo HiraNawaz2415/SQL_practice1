@@ -41,7 +41,6 @@ Here, **StudentID** is a primary key—each student must have a unique ID.
 - Used to create relationships between tables.
 
 **Example:**
-
 CREATE TABLE Marks (
     MarkID INT PRIMARY KEY,
     StudentID INT,
@@ -61,8 +60,7 @@ Here, **StudentID** in the **Marks** table is a foreign key that connects to the
 
 - Used when no single column can uniquely identify a row.
 
-** Example:**
-PRIMARY KEY (StudentID, Subject)
+**Example:** PRIMARY KEY (StudentID, Subject)
 ---
 
 ## **What is a Surrogate Key?*8
@@ -75,7 +73,7 @@ PRIMARY KEY (StudentID, Subject)
 
 - When using a natural key would be too large, too complex, or could change over time.
 
-*8 Example:**
+**Example:**
 CREATE TABLE Employees (
     EmployeeID INT IDENTITY(1,1) PRIMARY KEY,  -- Surrogate Key
     Name VARCHAR(50),
