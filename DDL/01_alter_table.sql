@@ -1,0 +1,2 @@
+ALTER TABLE Students
+ADD Grade VARCHAR(2);
