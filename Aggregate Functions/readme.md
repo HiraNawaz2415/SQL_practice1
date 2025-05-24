@@ -2,7 +2,7 @@
 - Aggregate functions are built-in SQL functions used to perform calculations on multiple rows of a table and return a single result.
 -  These are commonly used with **GROUP BY** and **HAVING clauses**.
 ---
-## **1.COUNT()** → How many items are there?
+## **COUNT()** → How many items are there?
 
 ## **SUM()** → What’s the total of all these numbers?
 
