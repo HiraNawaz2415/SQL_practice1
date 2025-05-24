@@ -3,7 +3,7 @@
 
 - This is helpful when you want to make sure that your changes only get saved if everything goes well — and if something goes wrong, you can undo the changes.
   ---
-## **1. COMMIT **– Save Changes Permanently
+## **1. COMMIT**– Save Changes Permanently
 - When you're sure that all your changes (like inserting or updating rows) are correct, you use COMMIT to save them permanently in the database.
 
 **Example:**
@@ -19,7 +19,7 @@ INSERT INTO Students (StudentID, Name, Age) VALUES (2, 'Sara', 21);
 ROLLBACK;
 - This will undo the INSERT, so Sara won’t be added to the table.
 
-## **3. SAVEPOINT **– Set a Temporary Save Spot
+## **3. SAVEPOINT**– Set a Temporary Save Spot
 - SAVEPOINT lets you set a checkpoint during a transaction. If something goes wrong, you can roll back only to that point instead of undoing everything.
 
 **Example:**
