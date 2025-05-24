@@ -31,3 +31,14 @@ INSERT INTO students (student_id, name, age, email, dept_id, admission_date) VAL
 
 -- Add an index on dept_id in students for faster joins
 CREATE INDEX idx_dept_id ON students(dept_id);
+
+-- Key Features in This Script:
+--departments table (with unique dept_id and dept_name)
+
+--students table with:
+
+--Foreign Key (fk_department) to departments(dept_id)
+
+--Constraints: PRIMARY KEY, NOT NULL, UNIQUE, CHECK, and DEFAULT
+
+--Index on dept_id for fast lookup
