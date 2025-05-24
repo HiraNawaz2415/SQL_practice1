@@ -1,7 +1,6 @@
 # 🔁 **TCL – Transaction Control Language**
 - TCL commands are used to manage a group of DML operations (like INSERT, UPDATE, DELETE) as a single unit called a transaction.
-
-- This is helpful when you want to make sure that your changes only get saved if everything goes well — and if something goes wrong, you can undo the changes.
+-  This is helpful when you want to make sure that your changes only get saved if everything goes well — and if something goes wrong, you can undo the changes.
   ---
 ## **1. COMMIT**– Save Changes Permanently
 - When you're sure that all your changes (like inserting or updating rows) are correct, you use COMMIT to save them permanently in the database.
