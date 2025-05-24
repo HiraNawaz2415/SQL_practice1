@@ -17,7 +17,7 @@
 ## **COUNT()**
 - Counts the number of rows (non-NULL values)
 - SELECT COUNT(*) FROM students;
-## **SUM()**	A
+## **SUM()**	
 - Adds up numeric values
 - SELECT SUM(salary) FROM employees;
 ## **AVG()**	
