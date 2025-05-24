@@ -11,7 +11,8 @@
 - **Safe** – You can control who uses it, instead of letting people write raw SQL.
 
 - **Logic** – You can add conditions, loops, etc., just like in programming.
-  ---
+
+   ---
   -- This creates the stored procedure
 CREATE PROCEDURE GetStudentDetails (@student_id INT)
 AS
