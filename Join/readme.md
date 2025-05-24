@@ -1,4 +1,4 @@
-#🤝 **What Are Joins in SQL?**
+# 🤝 **What Are Joins in SQL?**
 - In real life, when we want to combine information from two lists — for example, a list of students and a list of their departments — we connect them using something in common like a DepartmentID.
 - Joins in SQL do exactly that! They allow us to combine rows from two or more tables based on a related column between them (usually a primary key and foreign key).
 ---
