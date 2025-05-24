@@ -23,13 +23,13 @@ CREATE TABLE table_name (
 );
 
 **Example:**
-
 CREATE TABLE Students (
     StudentID INT PRIMARY KEY,
     Name VARCHAR(50),
     Age INT,
     Grade CHAR(1)
 );
+
 This creates a table named **Students** with four columns.
 ---
 ## **1.2 ALTER**
