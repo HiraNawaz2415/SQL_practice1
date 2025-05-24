@@ -41,10 +41,10 @@
               HAVING COUNT(*) > 5;
 - This means: "Show departments that have more than 5 employees."
 ---
-## **7. TOP**
+## ***7. TOP**
 - **What it does:** Similar to LIMIT, but used in SQL Server.
--  SELECT TOP 5 * FROM students;
-- This means: "Show only the first 5 students."
+  SELECT TOP 5 * FROM students;
+-   This means: "Show only the first 5 students."
   ---
 ## **8. IN**
 - **What it does:** Checks if a value matches any value in a list.
