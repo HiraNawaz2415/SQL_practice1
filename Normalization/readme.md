@@ -10,7 +10,7 @@ For example if storing student records in a single table. If you repeat the same
 -  This improves data consistency and storage efficiency.
 ---
 # **Types (Forms) of Normalization:**
-Normalization has several levels called normal forms. Each form builds on the previous one.
+- Normalization has several levels called normal forms. Each form builds on the previous one.
 ---
 # **1NF (First Normal Form)**
 **Rule:**
