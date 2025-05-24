@@ -30,7 +30,7 @@ Normalization has several levels called normal forms. Each form builds on the pr
 - It should be in 2NF
 - And no non-key column should depend on another non-key column (no transitive dependency).
 ---
-## **Higher Normal Forms
+## **Higher Normal Forms**
 - There are also BCNF, 4NF, 5NF for very complex databases, but usually 3NF is enough for most practical applications.
 ---
 
