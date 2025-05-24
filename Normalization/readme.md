@@ -29,7 +29,7 @@ Normalization has several levels called normal forms. Each form builds on the pr
 **Rule:**
 - It should be in 2NF
 ---
-## **Higher Normal Forms((
+## **Higher Normal Forms
 - There are also BCNF, 4NF, 5NF for very complex databases, but usually 3NF is enough for most practical applications.
 ---
 
